@@ -64,12 +64,16 @@ header {
     background-color: #0000;
 }
 
-.main {
+.grid-container {
     display: grid;
-    grid-template-columns: 70% 30%;
-}
-
-.main > div {
+    grid-template-columns: 60% 40%;
+    padding: 180px;
+    padding-left: 20px;
+    grid-column-gap: 100px;
+  }
+.grid-item {
     background-color: #3D3C3C;
-    padding: 1em;
-}
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
