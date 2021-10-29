@@ -64,16 +64,11 @@ header {
     background-color: #0000;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 75px;
-    height: 700px;
+.wrapper > div{
+    background-color:white;
+    padding: 1em;
 }
 
-.grid-item {
-    background-color: cornflowerblue;
-    border: 1px solid;
-    font-size: 30px;
-    text-align: center;
+.wrapper {
+    display: grid;
 }
