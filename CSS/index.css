@@ -67,13 +67,18 @@ header {
 .grid-container {
     display: grid;
     grid-template-columns: 60% 40%;
-    padding: 180px;
+    padding: 100px;
     padding-left: 20px;
     grid-column-gap: 100px;
   }
+  
 .grid-item {
     background-color: #3D3C3C;
     padding: 20px;
     font-size: 30px;
-    text-align: center;
+    color: #C8C8C8 ;
+    text-align: left;
+    border: 5px solid #C4C4C4;
+    border-radius: 30px;
+    height: 600px;
   }
