@@ -74,7 +74,7 @@ header {
     grid-column-gap: 50px;
   }
   
-.grid-item {
+.about-item {
     background-color: #3D3C3C;
     padding: 20px;
     font-size: 30px;
@@ -84,3 +84,21 @@ header {
     border-radius: 30px;
     height: 350px;
   }
+
+.grid-project {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 200px;
+    padding-left: 30px;
+    grid-column-gap: 50px;
+  }
+
+.project-item {
+    background-color: #3D3C3C;
+    font-size: 30px;
+    color: #C8C8C8 ;
+    text-align: left;
+    border: 5px solid #C4C4C4;
+    border-radius: 30px;
+    height: 350px;
+}
