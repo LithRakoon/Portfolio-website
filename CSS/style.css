@@ -59,7 +59,7 @@ header {
 
 .button:hover {
     cursor: pointer;
-    color: blueviolet;
+    color: #6A0DAD;
 }
 
 .color-body {
@@ -82,5 +82,5 @@ header {
     text-align: left;
     border: 5px solid #C4C4C4;
     border-radius: 30px;
-    height: 600px;
+    height: 350px;
   }
