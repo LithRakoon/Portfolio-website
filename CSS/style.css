@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    color: #C8C8C8;
+    scroll-behavior: smooth;
 }
 
 .pfp {
@@ -101,4 +103,11 @@ header {
     border: 5px solid #C4C4C4;
     border-radius: 30px;
     height: 350px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
 }
