@@ -42,24 +42,16 @@ nav {
 nav a {
     font-size: 35px;
     align-items: center;
+    padding: 6px 15px;
+    color: #C8C8C8;
+}
+
+nav a:hover {
+    color: #6A0DAD;
 }
 
 .pfp {
     width: 50px;
-}
- 
-/***************
-* BUTTONS
-***************/
-
-.button {
-    color: #C8C8C8;
-    margin-bottom: 25px;
-}
-
-.button:hover {
-    cursor: pointer;
-    color: #6A0DAD;
 }
 
 /****************
