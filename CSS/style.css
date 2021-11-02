@@ -1,58 +1,56 @@
-body {
-    margin: 0;
+/***************
+* BODY
+***************/
+
+* {
+    box-sizing: border-box;
     padding: 0;
+    margin: 0;
+
+}
+
+html,
+body {
     background-color: black;
     color: #C8C8C8;
     scroll-behavior: smooth;
 }
 
-.pfp {
-    border-radius: 100%;
-    width: 70px;
-    height: 70px;
-    padding: 10px 10px 10px 10px;
-    margin-top: 5px;
-} 
-
-header {
-    width: 100%;
-    margin: auto;
-    background-color: #333232;
-    position: fixed;
-    
-}
-
-#left {
-    width: 10%;
-    min-width: 70px;
-    float: left;
-    background-color: #333232;
-    min-height: 100px;
-}
-
-#right {
-    width: 90%;
-    float: left;
-    background-color: #333232;
-    min-height: 100px;
-}
-
-#main {
-    clear: both;
-    width: 100%;
-    margin: auto;
-}
-
-.flex-container {
+body {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
 }
 
-.flex-container > a {
-    padding-top: 30px;
-    font-size: 30px;
-    border-radius: 10px;
+
+/*****************
+* NAVIGATION
+*****************/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 10px 30px;
+    background-color: #333232;
+    justify-content: space-between;
 }
+
+nav a {
+    font-size: 35px;
+    align-items: center;
+}
+
+.pfp {
+    width: 50px;
+}
+ 
+/***************
+* BUTTONS
+***************/
 
 .button {
     color: #C8C8C8;
@@ -64,9 +62,9 @@ header {
     color: #6A0DAD;
 }
 
-.color-body {
-    background-color: #0000;
-}
+/****************
+* GRID
+****************/
 
 .grid-container {
     display: grid;
@@ -87,27 +85,5 @@ header {
     height: 350px;
   }
 
-.grid-project {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    padding: 200px;
-    padding-left: 30px;
-    grid-column-gap: 50px;
-  }
 
-.project-item {
-    background-color: #3D3C3C;
-    font-size: 30px;
-    color: #C8C8C8 ;
-    text-align: left;
-    border: 5px solid #C4C4C4;
-    border-radius: 30px;
-    height: 350px;
-}
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
-}
+  
