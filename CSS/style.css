@@ -87,6 +87,37 @@ nav a:hover {
     border-radius: 30px;
     height: 400px;
   }
+  
+.project-item1 {
+    grid-area: title;
+    background-color: aqua;
+    border-radius: 30px;
+    height: 50px;
+  }
+
+.project-item2 {
+    grid-area: img;
+    background-color: blue;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.project-item3 {
+    grid-area: about;
+}
+
+.project-item4 {
+    grid-area: nothing;
+}
+
+.grid-project {
+    display: grid;
+    grid-template-areas: 
+    'title nothing nothing'
+    'img about  about about about';
+    grid-gap: 10px;
+    padding: 10px;
+  }
 
 /******************
 * SECTIONS
@@ -104,7 +135,7 @@ nav a:hover {
 
 .project-page {
     height: 100vh;
-    background: #e4c124;
+    background: #2b2a29;
 }
 
 .my-stuff {
@@ -120,4 +151,9 @@ nav a:hover {
     font-size: 100px;
     padding-top: 100px;
     padding-left: 50px;
+}
+
+.text1 {
+    padding-top: 5px;
+    text-align: center;
 }
