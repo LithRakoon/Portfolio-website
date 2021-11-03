@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    padding-top: 100px;
 }
 
 
@@ -61,7 +62,7 @@ nav a:hover {
 .grid-container {
     display: grid;
     grid-template-columns: 60% 40%;
-    padding: 200px;
+    padding: 2000px;
     padding-left: 30px;
     grid-column-gap: 50px;
   }
