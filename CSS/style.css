@@ -14,13 +14,23 @@ body {
     background-color: black;
     color: #C8C8C8;
     scroll-behavior: smooth;
+    font-family: DefaultFont;
 }
 
 body {
     display: flex;
     flex-direction: column;
     position: relative;
-    padding-top: 100px;
+    padding-top: 74px;
+}
+
+/*****************
+* FONTS
+*****************/
+
+@font-face {
+    font-family: DefaultFont;
+    src: url(../fonts/TitilliumWeb-Light.ttf);
 }
 
 
@@ -36,7 +46,7 @@ nav {
     left: 0;
     width: 100vw;
     padding: 10px 30px;
-    background-color: #333232;
+    background-color: #383636;
     justify-content: space-between;
 }
 
@@ -62,15 +72,15 @@ nav a:hover {
 .grid-container {
     display: grid;
     grid-template-columns: 60% 40%;
-    padding: 200px;
+    padding: 80px;
     padding-left: 30px;
     grid-column-gap: 50px;
   }
   
 .about-item {
     background-color: #3D3C3C;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 28px;
     color: #C8C8C8 ;
     text-align: left;
     border: 5px solid #C4C4C4;
@@ -78,5 +88,36 @@ nav a:hover {
     height: 400px;
   }
 
+/******************
+* SECTIONS
+******************/
 
-  
+.landing {
+    height: 100vh;
+    background: #211f22;
+}
+
+.over-mij {
+    height: 100vh;
+    background: rgb(36, 37, 36);
+}
+
+.project-page {
+    height: 100vh;
+    background: #e4c124;
+}
+
+.my-stuff {
+    height: 100vh;
+    background: #b1066f;
+}
+
+/*****************
+* TEXT
+*****************/
+
+.title {
+    font-size: 100px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
