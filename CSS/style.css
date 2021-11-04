@@ -94,16 +94,10 @@ nav a:hover {
 
 .project-item1 {
     background-color: #3D3C3C;
-    font-size: 17px;
+    font-size: 15px;
     color: #C8C8C8 ;
-    text-align: center;
     border: 3px solid #C4C4C4;
     border-radius: 30px;
-    height: 50px;
-    width: 20%;
-    margin-top: 70px;
-    font-family: BoldFont;
-    margin-left: 440px;
   }
 
 .project-item2 {
@@ -134,6 +128,15 @@ nav a:hover {
     grid-row-gap: 10px;
     justify-content: center;
   }
+
+.test-container {
+    display: grid;
+    grid-template-columns: 40%;
+    padding-top: 80px;
+    justify-content: center;
+    text-align: center;
+  }
+  
 /******************
 * SECTIONS
 ******************/
@@ -156,10 +159,6 @@ nav a:hover {
 .my-stuff {
     height: 100vh;
     background: #b1066f;
-}
-
-.bruh {
-    margin-left: 50px;
 }
 
 /*****************
