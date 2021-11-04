@@ -69,6 +69,17 @@ nav a:hover {
     width: 50px;
 }
 
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
 /****************
 * GRID
 ****************/
@@ -98,6 +109,8 @@ nav a:hover {
     color: #C8C8C8 ;
     border: 3px solid #C4C4C4;
     border-radius: 30px;
+    width: 300px;
+    margin-left: 370px;
   }
 
 .project-item2 {
@@ -122,18 +135,37 @@ nav a:hover {
 
 .grid-project {
     display: grid;
-    grid-template-columns: 20% 30%;
+    grid-template-columns: 20% 30% 10%;
     margin-top: 10px;
     grid-column-gap: 50px;
     grid-row-gap: 10px;
     justify-content: center;
   }
 
+.project-item4 {
+    margin-top: 50px;
+    background-color: #3D3C3C;
+    font-size: 15px;
+    color: #C8C8C8 ;
+    border: 3px solid #C4C4C4;
+    border-radius: 30px;
+    height: 100px;
+  }
+
+.project-item4:hover {
+    margin-top: 50px;
+    background-color: #6A0DAD;
+    font-size: 15px;
+    color: #C8C8C8 ;
+    border: 3px solid #C4C4C4;
+    border-radius: 30px;
+    height: 100px;
+    cursor: pointer;
+  }
 .test-container {
     display: grid;
     grid-template-columns: 40%;
     padding-top: 80px;
-    justify-content: center;
     text-align: center;
   }
   
@@ -174,4 +206,22 @@ nav a:hover {
 .text1 {
     padding-top: 5px;
     text-align: center;
+}
+
+.download {
+    text-align: center;
+    justify-content: center;
+}
+
+.yep {
+    padding-left: 10px;
+}
+/***************
+* Painful
+***************/
+
+@media (max-width: 500px) {
+    body {
+        color: #6A0DAD;
+    }
 }
