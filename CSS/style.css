@@ -75,10 +75,10 @@ nav a:hover {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 40% 40%;
-    padding: 80px;
-    padding-left: 30px;
+    grid-template-columns: 40%;
+    padding-top: 80px;
     grid-column-gap: 50px;
+    justify-content: center;
   }
   
 .about-item {
@@ -91,7 +91,7 @@ nav a:hover {
     border-radius: 30px;
     height: 300px;
   }
-  
+
 .project-item1 {
     background-color: #3D3C3C;
     font-size: 17px;
@@ -103,6 +103,7 @@ nav a:hover {
     width: 20%;
     margin-top: 70px;
     font-family: BoldFont;
+    margin-left: 440px;
   }
 
 .project-item2 {
@@ -113,7 +114,6 @@ nav a:hover {
     border-radius: 30px;
     height: 200px;
     margin-left: 30px;
-    padding-left: 20px;
     padding-top: 10px;
   }
 
@@ -132,6 +132,7 @@ nav a:hover {
     margin-top: 10px;
     grid-column-gap: 50px;
     grid-row-gap: 10px;
+    justify-content: center;
   }
 /******************
 * SECTIONS
@@ -168,7 +169,7 @@ nav a:hover {
 .title {
     font-size: 100px;
     padding-top: 100px;
-    padding-left: 50px;
+    text-align: center;
 }
 
 .text1 {
