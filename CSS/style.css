@@ -54,6 +54,11 @@ nav {
     justify-content: space-between;
 }
 
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
 nav a {
     font-size: 35px;
     align-items: center;
