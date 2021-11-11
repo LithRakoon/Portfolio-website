@@ -99,13 +99,13 @@ nav a:hover {
   
 .about-item {
     background-color: #3D3C3C;
-    padding: 10px;
+    padding-left: 1vh;
     font-size: 17px;
     color: #C8C8C8 ;
     text-align: left;
     border: 3px solid #C4C4C4;
     border-radius: 30px;
-    height: 300px;
+    height: 310px;
   }
 
 .project-item1 {
@@ -124,7 +124,7 @@ nav a:hover {
     text-align: left;
     border: 3px solid #C4C4C4;
     border-radius: 30px;
-    height: 200px;
+    height: 100%;
     margin-left: 30px;
     padding-top: 10px;
   }
@@ -135,7 +135,7 @@ nav a:hover {
     color: #C8C8C8 ;
     border: 3px solid #C4C4C4;
     border-radius: 30px;
-    height: 200px;
+    height: 100%;
   }
 
 .grid-project {
@@ -190,7 +190,7 @@ nav a:hover {
     color: #C8C8C8 ;
     border: 3px solid #C4C4C4;
     border-radius: 30px;
-    height: 390px;
+    height: 90%;
   }
 
 
@@ -242,7 +242,7 @@ nav a:hover {
 *****************/
 
 .title {
-    font-size: 100px;
+    font-size: 5vw;
     padding-top: 100px;
     text-align: center;
 }
@@ -259,6 +259,7 @@ nav a:hover {
 
 .yep {
     padding-left: 10px;
+    font-size: 1vw;
 }
 
 .text-stuff {
@@ -287,13 +288,19 @@ nav a:hover {
 .hat {
     font-family: BoldFont;
     text-align: center;
-    font-size: 50px;
+    font-size: 3vw;
 }
+
+.thing-thing {
+    font-size: 0vw;
+}
+
 /***************
 * Painful
 ***************/
 
 @media (max-width: 500px) {
     body {
+
     }
 }
