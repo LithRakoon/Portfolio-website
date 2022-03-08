@@ -302,11 +302,3 @@ nav a:hover {
 /***************
 * Painful
 ***************/
-
-@media screen and (max-width: 800px) {
-    body {
-        grid-column-gap: 10000px;
-        font-size: 100px;
-        color: green;
-    }
-}
