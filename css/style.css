@@ -1,4 +1,28 @@
+.body {
+    background-color: #1b1b1b;
+}
+
 .img-about {
-    width: 60;
-    height: 60;
+    width: 70;
+    height: 70;
+}
+
+p span {
+    display: block;
+}
+
+.nav-color {
+    background-color: #222222;
+}
+
+.main-size {
+    height: 85vh;
+}
+
+.custom-nav:hover {
+    color: #651caa !important;
+}
+
+.custom-nav.active {
+    color: #651caa !important;
 }
