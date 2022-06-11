@@ -3,8 +3,18 @@
 }
 
 .img-about {
-    width: 70;
-    height: 70;
+    width: 90;
+    height: 90;
+    transform: linear 0.6;
+}
+
+.img-about-2 {
+    width: 90;
+    height: 90;
+}
+
+.img-about:hover {
+    transform: scale(1.2);
 }
 
 p span {
